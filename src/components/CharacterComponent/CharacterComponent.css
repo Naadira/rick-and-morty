@@ -1,0 +1,33 @@
+#main-heading{
+    text-align: center;
+    font-size: 4em;
+}
+.char-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.char-info-box{
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 5px;
+    background-color: rgba(73, 70, 70, 0.658);
+}
+.char-info{
+    margin:10px;
+}
+.white-text{
+    color: black;
+}
+#gray-text{
+    color: rgb(48, 45, 45);
+}
+img{
+    border-radius: 10px 0px 0px 10px;
+}
+#char-name{
+    line-height: 1;
+}
